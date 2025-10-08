@@ -14,3 +14,5 @@ aplikacja będzie wymagała użycia klawiatury od użytkownika aby poruszać si�
 - Zastosowano zasadę CC Single Responsibility
 # ver. 0.03
 - Zastosowano zasadę CC Nazwy mówią co robią
+# ver. 0.04
+- Zastosowano zasadę CC DRY Don’t Repeat Yourself
