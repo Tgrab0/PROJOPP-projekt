@@ -12,3 +12,5 @@ aplikacja będzie wymagała użycia klawiatury od użytkownika aby poruszać si�
 - Okno do gry gotowe
 # ver. 0.02
 - Zastosowano zasadę CC Single Responsibility
+# ver. 0.03
+- Zastosowano zasadę CC Nazwy mówią co robią
