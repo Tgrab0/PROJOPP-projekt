@@ -10,3 +10,5 @@ aplikacja będzie wymagała użycia klawiatury od użytkownika aby poruszać si�
 - Rozbudowano Skrypt strony
 - dodano CSS
 - Okno do gry gotowe
+# ver. 0.02
+- Zastosowano zasadę CC Single Responsibility
