@@ -55,26 +55,27 @@
   </div>
 
   <script>
- function typeEffect(elementId, text, speed = 100) {
-    const element = document.getElementById(elementId);
-    if (!element) return;
-    let i = 0;
-    function type() {
-      if (i < text.length) {
-        element.textContent += text.charAt(i);
-        i++;
-        setTimeout(type, speed);
-      }
-    }
-    type();
-  }
+ function animateTitleTyping(targetElementId, textToDisplay, typingSpeed = 100) {
+const targetElement = document.getElementById(targetElementId);
+if (!targetElement) return; 
 
+let currentCharacterIndex = 0;
 
-  document.addEventListener("DOMContentLoaded", () => {
-    const TITLE_TEXT = "Gra w budowie";
-    typeEffect("gameTitle", TITLE_TEXT);
-  });
+function typeNextCharacter() {
+if (currentCharacterIndex < textToDisplay.length) {
+targetElement.textContent += textToDisplay.charAt(currentCharacterIndex);
+currentCharacterIndex++;
+setTimeout(typeNextCharacter, typingSpeed);
+}
+}
+
+typeNextCharacter();
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const GAME_TITLE = "Prosta Gra w Stylu Dino";
+  animateTitleTyping("gameTitle", GAME_TITLE);
+});
   </script>
 </body>
-
 </html>
