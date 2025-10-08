@@ -18,3 +18,5 @@ aplikacja będzie wymagała użycia klawiatury od użytkownika aby poruszać si�
 - Zastosowano zasadę CC DRY Don’t Repeat Yourself
 # ver. 0.05
 - Zastosowano zasadę CC KISS Keep it simple stupid
+# ver. 0.06
+- Zastosowano zasadę CC YAGNI you aren't gonna need it
