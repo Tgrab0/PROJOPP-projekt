@@ -1,14 +1,72 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Projekt</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(180deg, #5d5f5f 0%, #5d5f5f 100%);
+      font-family: system-ui, sans-serif;
+    }
+
+    #gameContainer {
+      width: 800px;
+      height: 300px;
+      border: 4px solid #333;
+      border-radius: 12px;
+      background: linear-gradient(#fff, #e9e9e9);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      position: relative;
+      overflow: hidden;
+    }
+      #ground {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 40px;
+background: #666;
+}
+
+
+#gameTitle {
+position: absolute;
+top: 40%;
+width: 100%;
+text-align: center;
+font-size: 28px;
+font-weight: bold;
+color: #222;
+}
+  </style>
 </head>
 <body>
-  <h1 id="tekst"></h1>
+  <div id="gameContainer">
+    <div id="ground"></div>
+    <div id="gameTitle"></div>
+    </div>
 
   <script>
-    document.getElementById("tekst").textContent = "Witaj na stronie!";
+    const gameTitle = document.getElementById('gameTitle');
+    const titleText = 'Gra w Budowie';
+
+    let i = 0;
+function typeEffect() {
+if (i < titleText.length) {
+gameTitle.textContent += titleText.charAt(i);
+i++;
+setTimeout(typeEffect, 100);
+}
+}
+
+
+typeEffect();
   </script>
 </body>
 </html>
