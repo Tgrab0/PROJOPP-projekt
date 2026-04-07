@@ -201,21 +201,25 @@
 
     function checkCollision(){
 
-      let dX = dino.x + 5; 
-      let dW = dino.w - 10;
-      let dH = dino.ducking ? dino.h / 2 : dino.h;
-      let dY = dino.ducking ? (GROUND_Y - dH) : dino.y;
+     
+  let dX = dino.x + 5; 
+  let dW = dino.w - 10;
+  let dH = dino.ducking ? dino.h / 2 : dino.h;
+  // Jeśli kuca, hitbox zaczyna się niżej (od poziomu ziemi w górę do połowy wysokości)
+  let dY = dino.ducking ? (GROUND_Y - dH) : dino.y;
 
-      for(let o of obstacles) {
-        if (dX < o.x + o.w &&
-            dX + dW > o.x &&
-            dY < o.y + o.h &&
-            dY + dH > o.y) {
-          return true;
-        }
-      }
-      return false;
+  for(let o of obstacles) {
+    // USUNIĘTO BŁĘDNY WARUNEK 'if(dino.ducking && o.type === "ground")'
+    
+    if (dX < o.x + o.w &&
+        dX + dW > o.x &&
+        dY < o.y + o.h &&
+        dY + dH > o.y) {
+      return true;
     }
+  }
+  return false;
+}
 
     function update(){
       if(!running) return;
