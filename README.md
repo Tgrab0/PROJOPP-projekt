@@ -24,3 +24,7 @@ aplikacja będzie wymagała użycia klawiatury od użytkownika aby poruszać si�
 - Gra jest teraz grywalna
 - Dodano skrypt gry w Javascriptcie W tym:
 Postać/Dino, Przeszkody, Kucanie, Skakanie, Chmury, wynik, Instrukcje.
+# ver. 0.20
+- Zastosowano manualną technikę debugowania
+- Poprawiono błąd który sprawiał, że:
+Gracz był nieśmiertelny podczas kucania.
