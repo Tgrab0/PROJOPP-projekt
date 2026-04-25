@@ -28,3 +28,8 @@ Postać/Dino, Przeszkody, Kucanie, Skakanie, Chmury, wynik, Instrukcje.
 - Zastosowano manualną technikę debugowania
 - Poprawiono błąd który sprawiał, że:
 Gracz był nieśmiertelny podczas kucania.
+# ver. 0.70
+- Rozszerzono mechaniki gry, czyli dodano:
+Poziomy trudności, Power-upy na poziomie łatwym i średnim.
+- Zmieniono kolory gry na bardziej pasujące.
+- Dodano dźwięk skakania.
