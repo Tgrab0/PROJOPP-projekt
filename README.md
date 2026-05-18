@@ -33,3 +33,7 @@ Gracz był nieśmiertelny podczas kucania.
 Poziomy trudności, Power-upy na poziomie łatwym i średnim.
 - Zmieniono kolory gry na bardziej pasujące.
 - Dodano dźwięk skakania.
+# ver. 0.90
+- Wykonano Testy Aplikacji:
+Testy funkcjonalne, Testy użyteczności.
+- Wprowadzono zmiany po testach.
