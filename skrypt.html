@@ -310,14 +310,14 @@
     function showControls() { document.getElementById('mainMenu').style.display = 'none'; document.getElementById('controlsMenu').style.display = 'flex'; }
     function backToMenu() { document.getElementById('mainMenu').style.display = 'flex'; document.getElementById('controlsMenu').style.display = 'none'; }
     
-    function handleJump() { 
+ function handleJump() { 
   if(!dino.jumping && !dino.ducking && running) { 
     dino.vy = -16; 
     dino.jumping = true;
 
-    
+    // Weryfikacja po testach: Bezpieczne odtwarzanie dźwięku
     jumpSound.currentTime = 0;
-    jumpSound.play();
+    jumpSound.play().catch(e => console.log("Audio play prevented or file missing."));
   } 
 }
 
