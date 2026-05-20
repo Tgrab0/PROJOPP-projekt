@@ -60,4 +60,4 @@ Sterowanie:
 ## Licencja oprogramowania
 
 Projekt udostępniany jest na warunkach Licencji MIT.  Copyright (c) 2026 Filip Grabowski
-Niniejszym udziela się bezpłatnie pozwolenia każdej osobie uzyskującej kopię tego oprogramowania i powiązanych plików dokumentacji na korzystanie z oprogramowania bez ograniczeń, w tym bez ograniczeń praw do używania, kopiowania, modyfikowania, łączenia, publikowania, dystrybuowania, sublicencjonowania i/lub sprzedaży kopii.
+- Niniejszym udziela się bezpłatnie pozwolenia każdej osobie uzyskującej kopię tego oprogramowania i powiązanych plików dokumentacji na korzystanie z oprogramowania bez ograniczeń, w tym bez ograniczeń praw do używania, kopiowania, modyfikowania, łączenia, publikowania, dystrybuowania, sublicencjonowania i/lub sprzedaży kopii.
