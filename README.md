@@ -37,3 +37,27 @@ Poziomy trudności, Power-upy na poziomie łatwym i średnim.
 - Wykonano Testy Aplikacji:
 Testy funkcjonalne, Testy użyteczności.
 - Wprowadzono zmiany po testach.
+# ver. 1.00
+Aplikacja została przygotowana jako w pełni responsywna, jednostronicowa gra przeglądarkowa
+wykorzystująca technologie HTML5 Canvas oraz czysty JavaScript.
+
+Wymagania środowiskowe: Dowolna współczesna przeglądarka internetowa (np. Google Chrome, Mozilla Firefox, Microsoft Edge, Safari) 
+wspierająca standard HTML5
+
+Brak konieczności instalowania zewnętrznych frameworków, wtyczek czy bibliotek.
+
+Kroki do uruchomienia:
+
+  1.  Upewnij się, że plik skrypt.html oraz plik dźwiękowy jump.mp3 znajdują się w tym samym katalogu (dźwięk skoku jest opcjonalny)
+  2.  Kliknij dwukrotnie plik skrypt.html, aby otworzyć go w domyślnej przeglądarce internetowej.
+
+Sterowanie:
+
+    Skok: Klawisz Spacja, Strzałka w górę lub kliknięcie lewym przyciskiem myszy na obszarze gry.
+
+    Kucanie: Klawisz Strzałka w dół
+
+## 4. Licencja oprogramowania
+
+Projekt udostępniany jest na warunkach Licencji MIT.  Copyright (c) 2026 Filip Grabowski
+Niniejszym udziela się bezpłatnie pozwolenia każdej osobie uzyskującej kopię tego oprogramowania i powiązanych plików dokumentacji na korzystanie z oprogramowania bez ograniczeń, w tym bez ograniczeń praw do używania, kopiowania, modyfikowania, łączenia, publikowania, dystrybuowania, sublicencjonowania i/lub sprzedaży kopii.
